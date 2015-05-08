@@ -4,7 +4,7 @@ package proctl
 #include <stddef.h>
 #include <sys/types.h>
 #include <sys/user.h>
-#include <sys/debugreg.h>
+#include debugreg.h
 
 // Exposes C macro `offsetof` which is needed for getting
 // the offset of the debug register we want, and passing
