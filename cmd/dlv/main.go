@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/derekparker/delve/service/rest"
-	"github.com/derekparker/delve/terminal"
+	"github.com/WnP/delve/service/rest"
+	"github.com/WnP/delve/terminal"
 )
 
 const version string = "0.5.0.beta"
